@@ -81,3 +81,18 @@
   height: 20%;
   width: 40%;
 }
+
+.container{
+  text-align: center;
+  font-size: 5em;
+  
+}
+
+.subtn{
+display: flex;
+justify-content: center;
+gap: 25px;
+height: 30px;
+
+}
+

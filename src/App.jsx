@@ -3,7 +3,12 @@ import CardComponent from "./CardComponent";
 import ChildBt from "./ChildBt";
 import Counter from "./Counter";
 import ColorPicker from "./ColorPicker";
-import ComponentA from "./ComponentA";
+import Count from "./Button/Count";
+import Form from "./Button/Form";
+
+
+
+
 
 
 
@@ -13,7 +18,7 @@ function App() {
   return(
     <>
     
-    <ComponentA/>
+    <Form/>
 
     {/* <Counter/> */}
     {/* <CardComponent title="Spring season"

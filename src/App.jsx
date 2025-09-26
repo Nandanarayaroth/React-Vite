@@ -4,7 +4,8 @@ import ChildBt from "./ChildBt";
 import Counter from "./Counter";
 import ColorPicker from "./ColorPicker";
 import Count from "./Button/Count";
-import Form from "./Button/Form";
+import Atmpt from "./Atmpt";
+
 
 
 
@@ -18,7 +19,7 @@ function App() {
   return(
     <>
     
-    <Form/>
+    <Atmpt/>
 
     {/* <Counter/> */}
     {/* <CardComponent title="Spring season"

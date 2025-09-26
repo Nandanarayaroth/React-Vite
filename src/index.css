@@ -211,7 +211,28 @@ li{
   margin-left: 10px;
 } */
 
-.box{
-  border: 3px solid;
-  padding: 25px;
+body{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.headtodo{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.inpbx{
+  align-items: center;
+}
+ul{
+  list-style-position: inside;
+  padding: 0;
+}
+
+.task{
+  margin-right: 2rem;
+}
+.dltbtn{
+  margin-right: 2rem;
 }

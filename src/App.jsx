@@ -4,7 +4,8 @@ import ChildBt from "./ChildBt";
 import Counter from "./Counter";
 import ColorPicker from "./ColorPicker";
 import Count from "./Button/Count";
-import Atmpt from "./Atmpt";
+import Atmpt from "./ToDo/Atmpt";
+import Effect from "./Effect";
 
 
 
@@ -19,6 +20,7 @@ function App() {
   return(
     <>
     
+    {/* <Effect/> */}
     <Atmpt/>
 
     {/* <Counter/> */}

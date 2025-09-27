@@ -214,16 +214,17 @@ li{
 body{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(11, 7%, 58%);
   
 }
 
 .headtodo{
   font-size: 2rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .inpbx{
-  align-items: center;
+  /* align-items: center; */
 }
 ul{
   list-style-position: inside;
@@ -234,5 +235,17 @@ ul{
   margin-right: 2rem;
 }
 .dltbtn{
-  margin-right: 2rem;
+  margin-right: 1rem;
+}
+
+.dltbtn{
+  border-radius: 20%;
+  border: none;
+  padding: 8px;
+  background-color: hsl(66, 77%, 71%);
+  font-weight: bold;
+}
+
+.status{
+  color: hsl(198, 94%, 27%);
 }

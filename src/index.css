@@ -242,10 +242,27 @@ ul{
   border-radius: 20%;
   border: none;
   padding: 8px;
-  background-color: hsl(66, 77%, 71%);
+  background-color: hsl(66, 57%, 61%);
   font-weight: bold;
 }
 
 .status{
   color: hsl(198, 94%, 27%);
 }
+
+.Inputbar{
+  padding: 10px;
+  border-radius: 8px;
+  /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 4px 15px rgba(226, 112, 59, 0.3);
+
+  border: none;
+  margin-right: 10px;
+}
+
+.Addbtn{
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+

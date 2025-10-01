@@ -44,7 +44,7 @@ function Atmpt() {
 
             <TaskItem onData={setTask} limit={20}/>
 
-            <ul>
+            <ul className="container-task">
                 {task.map((tasks, index) => (
                     <li className="licntr" key={index}>
                         <span className="task">{tasks.title}</span>

@@ -22,8 +22,8 @@ function Input({onAdd}) {
 
     return(
         <div>
-            <input  value={newTask} onChange={handleInput} placeholder="Enter task..."/>
-            <button onClick={addnewTask}>Add</button>
+            <input className="Inputbar" value={newTask} onChange={handleInput} placeholder="Enter task..."/>
+            <button className="Addbtn" onClick={addnewTask}>Add</button>
         </div>
     )
 }

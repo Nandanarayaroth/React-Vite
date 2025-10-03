@@ -1,7 +1,6 @@
 
 import './App.css'
-import ParentCounter from './ParentCounter'
-
+import ProductList from './ProductList'
 
 
 
@@ -14,7 +13,7 @@ function App() {
 
   return (
     <>
-      <ParentCounter/>
+    <ProductList/>
     </>
   )
 }

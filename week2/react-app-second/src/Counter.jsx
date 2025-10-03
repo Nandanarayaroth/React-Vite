@@ -8,11 +8,12 @@ function Counter() {
     useEffect(() => {
         const timer = setInterval(() => {
             setCount((prev) => prev + 1)
+            console.log("Component mounted")
         }, 1000)
 
         return () => {
             clearInterval(timer)
-            console.log("Time cleared")
+            console.log("Component unmounted")
         }
 
     }, [])

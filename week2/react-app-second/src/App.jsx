@@ -1,8 +1,6 @@
 
 import './App.css'
-import Counter from './Counter'
-
-
+import ParentCounter from './ParentCounter'
 
 
 
@@ -16,7 +14,7 @@ function App() {
 
   return (
     <>
-      <Counter/>
+      <ParentCounter/>
     </>
   )
 }
